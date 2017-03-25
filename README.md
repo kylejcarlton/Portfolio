@@ -1,10 +1,12 @@
-# [Protfolio](http://techiys.net/Portfolio/) - [Theme - Scrolling Nav](http://startbootstrap.com/template-overviews/scrolling-nav/)
+# [Protfolio](http://techiys.net/Portfolio/) ->
 
 
 
 
 
 ## Theme Creator
+
+[Theme - Scrolling Nav](http://startbootstrap.com/template-overviews/scrolling-nav/)
 
 Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
