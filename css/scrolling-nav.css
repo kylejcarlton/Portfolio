@@ -52,3 +52,9 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: #fff;
 }
+
+ul.socialmedia {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
