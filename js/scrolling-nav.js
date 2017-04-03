@@ -19,6 +19,9 @@ $(function() {
 });
 
 //jQuery for folder open on hover over intro page click here
+//https://api.jquery.com/hover/
+//http://api.jquery.com/replacewith/
+
 $("a.folder").hover(
   function() {
     $(this).replaceWith('<a class="btn btn-primary page-scroll folder" href="#projects">Click Here For My Projects <i class="fa fa-folder-open-o fa-lg" aria-hidden="true"></i></a>');
