@@ -31,6 +31,8 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
 
+
+@media(min-width:767px) {
 .intro-section {
     height: 100%;
     padding-top: 150px;
@@ -64,9 +66,54 @@ img.portfolio {
   border-radius: 20px;
   padding: 5px;
   width: 300px;
-  background-color: #fff; 
+  background-color: #fff;
 }
 
 img.portfolio:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+}
+
+@media(max-width:767px) {
+.intro-section {
+    height: 800px;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.projects-section {
+    height: 1000px;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+}
+
+
+.contact-section {
+    height: 600px;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+ul.socialmedia {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img.portfolio {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 5px;
+  width: 300px;
+  background-color: #fff;
+}
+
+img.portfolio:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
 }
