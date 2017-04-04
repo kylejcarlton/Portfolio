@@ -81,7 +81,7 @@ img.portfolio:hover {
 .folder:hover .folder-closed {
   display: inline;
 }
-}
+} /* END @media(min-width:767px)*/
 
 @media(max-width:767px) {
 .intro-section {
@@ -124,4 +124,14 @@ img.portfolio:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
+.folder:hover .folder-open,
+.folder .folder-closed {
+  display: none;
 }
+
+.folder:hover .folder-closed {
+  display: inline;
+}
+}
+
+} /* END @media(max-width:767px)*/
